@@ -1,6 +1,8 @@
-$body-color: slateblue;
+@import "normalize";
+@import "team";
 
-body {
-  color: $body-color;
-  font-family: sans-serif;
+.wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 0;
 }
