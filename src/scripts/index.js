@@ -1,11 +1,16 @@
 import '../styles/index.scss';
 
+document.getElementById("form-submit").addEventListener("click", (e) => {
+    e.preventDefault();
+
+    console.log('Form submitted');
+});
+
 (function main() {
         const blackout = document.querySelector('.blackout');
         const arrow = document.querySelector('.arrow-down');
 
-        arrow.addEventListener('click', (e) => {
-            console.log('!!!', blackout);
+        arrow.addEventListener('click', () => {
             blackout.style.transform = 'scale(0)';
         });
     }
