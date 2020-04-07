@@ -12,8 +12,8 @@
 
   input, textarea {
     width: 30%;
-    padding: 10px 15px;
-    font-size: 16px;
+    padding: 12px 15px;
+    font-size: 14px;
     box-sizing: border-box;
     border: 1px solid #d8dce0;
     border-radius: 2px;
@@ -21,7 +21,7 @@
     transition: .2s;
     outline: none;
     &:focus {
-      font-size: 14px;
+      font-size: 12px;
     }
     &::placeholder {
       color: #a9a9a9;
@@ -35,13 +35,13 @@
   }
 
   button {
-    margin-top: 30px;
-    text-transform: unset;
-    font-size: 16px;
-    background-color: $base-color;
     width: 100%;
+    margin-top: 30px;
     padding: 20px;
     color: #fff;
+    font-size: 14px;
+    text-transform: unset;
+    background-color: $base-color;
     border-radius: 2px;
     cursor: pointer;
     transition: .3s;
